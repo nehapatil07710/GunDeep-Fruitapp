@@ -1,0 +1,224 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+ body {
+  margin: 0;
+  padding: 0;
+    overflow-x: hidden;   
+
+  font-family: 'Poppins', sans-serif;
+/* 
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),   
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('/public/pagebc2.jpeg'); */
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+@keyframes zoomBg {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 110%;
+  }
+}
+.five-col {
+  width: 20%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* LIGHT */
+.light-theme {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* Cards */
+/* .dark-theme .card,
+.dark-theme div {
+  background-color: #1e1e1e !important;
+  color: white !important;
+} */
+
+/* Navbar */
+.dark-theme .navbar {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Buttons */
+.dark-theme button {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+/* Inputs */
+.dark-theme input {
+  background-color: #222 !important;
+  color: white !important;
+}
+
+/* Placeholder */
+.dark-theme input::placeholder {
+  color: #aaa !important;
+}
+/* 🌞 LIGHT MODE (default) */
+.light-theme {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url('/Originals/pagebc2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: black;
+}
+
+/* 🌙 DARK MODE (night theme) */
+/* 🌙 DARK MODE BACKGROUND */
+.dark-theme {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url('/Originals/pagebc2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Product Section */
+/* .dark-theme .product-container {
+  background: transparent !important;
+} */
+
+/* Product Cards */
+.dark-theme .product-card {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Text Fix */
+.dark-theme h5,
+.dark-theme h6,
+.dark-theme p {
+  color: white !important;
+}
+
+
+
+/* Product container */
+.product-container {
+  min-height: 100vh;
+}
+
+/* DARK MODE */
+.dark-theme .product-container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Product Cards */
+/* .dark-theme .product-card {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+} */
+
+/* Text Fix */
+.dark-theme h5,
+.dark-theme h6,
+.dark-theme p {
+  color: white !important;
+}
+ .product-card {
+  background-color: white;
+}
+
+.dark-theme .product-card {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+
+
+.dark-theme {
+  color: white;
+}
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6,
+.dark-theme p,
+.dark-theme span {
+  color: white !important;
+}
+
+.dark-theme,
+.light-theme {
+  min-height: 100vh;
+  width: 100%;
+}
